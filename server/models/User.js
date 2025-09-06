@@ -13,3 +13,4 @@ const userSchema = new Schema(
 );
 
 export default new mongoose.model("User", userSchema);
+

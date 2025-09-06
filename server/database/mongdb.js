@@ -6,7 +6,7 @@ async function connect() {
   const url = process.env.MONGO_DB_URL;
 
   await mongoose.connect(
-    `mongodb+srv://${username}:${passport}@${url}/?retryWrites=true&w=majority`
+    `mongodb+srv://${username}:${passport}@${url}/?retryWrites=true&w=majority&appName=tracker`
   );
   console.log("MongoDB connection is successful");
 }

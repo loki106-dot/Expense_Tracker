@@ -6,6 +6,14 @@ server/node_modules
 /.pnp
 .pnp.js
 
+# ignore env files
+server/.env
+
+.dockerignore
+compose.yml
+Dockerfile
+
+
 # testing
 /coverage
 
